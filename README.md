@@ -1,6 +1,7 @@
 # Deep-Learning-week4_Actvidad_3.
 
 **Análisis y Conclusiones**
+
 **1. Diferencias observadas entre configuraciones**
 Al mantener fija la tasa de aprendizaje (lr=0.01) y variar únicamente el algoritmo de actualización, se observa que Adam converge más rápido en las primeras épocas, alcanzando accuracy >95% en ~3 épocas, mientras que SGD requiere más iteraciones para estabilizarse en rangos similares. Esto se debe a que Adam adapta la tasa de aprendizaje por parámetro (momentum + RMSProp), suavizando actualizaciones en gradientes dispersos.
 
